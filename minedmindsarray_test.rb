@@ -11,4 +11,10 @@ class TestMinedMindsArray < Minitest::Test #camelcase with class name otherwise 
 		mm_array = create_mined_minds_array()
 		assert_equal(Array, mm_array.class)
 	end
+
+	def test_array_length_is_100
+		mm_array = create_mined_minds_array()
+		p mm_array
+		assert_equal(100, mm_array.length)
+	end
 end

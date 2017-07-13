@@ -13,9 +13,13 @@ def create_mined_minds_array()
 			array1.push(counter)
       	end
       	counter = counter + 1
+      	p "counter is here #{counter}" #this allows us to evaluate the data in the variable
 	end
 	array1
+	p array1
 end
+create_mined_minds_array()
+
 
 
 
